@@ -6,7 +6,9 @@
 //2.
 
 int main() {
-	PrintMetaData("D:\\DCM",1);
-
+	//PrintVTKImageAttributes(SetupSeriesReader("D:\\DCM", 2));
+	//PrintITKImageMetaData(SetupSeriesReader("D:\\DCM", 2)->GetOutput());
+	GenerateDRR(SetupSeriesReader("D:\\DCM", 2));
+	cin.get();
 	return EXIT_SUCCESS;
 }
