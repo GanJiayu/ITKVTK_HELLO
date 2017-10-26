@@ -18,8 +18,16 @@
     <ClCompile Include="ITK_HELLO.cpp">
       <Filter>资源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SINGLE_DCMTEST.cpp">
+    <ClCompile Include="TEST.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="DicomSingleSlice.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DicomSingleSlice.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
